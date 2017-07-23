@@ -1,0 +1,18 @@
+section {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    left: 0;
+    }
+
+#section1 {background-color: #0b97c4}
+#section2 {background-color: #0D3349}
+#section3 {background-color: #00d6b2}
+#section4 {background-color: #1b6d85}
+#section5 {background-color: #bce8f1}
+
+nav {
+    z-index: 999 !important;
+    }

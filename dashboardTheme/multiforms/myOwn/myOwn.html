@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head >
+    <meta charset="UTF-8" >
+    <title >Title</title >
+    <link rel="stylesheet" href="../bootstrap-4.0.0/css/bootstrap-grid.css" >
+    <link rel="stylesheet" href="../bootstrap-4.0.0/css/bootstrap.css" >
+    <link rel="stylesheet" href="../bootstrap-4.0.0/css/bootstrap-reboot.css" >
+    <link rel="stylesheet" href="myOwn.css" >
+</head >
+<body >
+
+<div class="container" >
+    <div class="row" >
+        <div class="col-md-12" >
+            <section class="slide ative" id="section1"></section >
+            <section class="slide" id="section2"></section >
+            <section class="slide" id="section3"></section >
+            <section class="slide" id="section4"></section >
+            <section class="slide" id="section5"></section >
+        </div >
+        <nav>
+            <button id="prev">Back</button>
+            <button id="next">Next</button>
+        </nav>
+    </div >
+</div >
+<script src="../jquery-3.2.1.min.js" ></script >
+<script >
+    $(document).ready(function () {
+        var windowWidth = $('#step1').width();
+        var slideCount = $('.slide').length;
+    });
+</script >
+</body >
+</html >
