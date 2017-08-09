@@ -1,5 +1,5 @@
 section {
-    height: 500px;
+    height: 400px;
     display: flex;
     align-items: center;
     position: absolute;
@@ -7,12 +7,29 @@ section {
     left: 0;
     }
 
-#section1 {background-color: #0b97c4}
-#section2 {background-color: #0D3349}
-#section3 {background-color: #00d6b2}
-#section4 {background-color: #1b6d85}
-#section5 {background-color: #bce8f1}
+#step1 {background-color: #0b97c4}
+#step2 {background-color: #0D3349}
+#step3 {background-color: #00d6b2}
+#step4 {background-color: #1b6d85}
+#step5 {background-color: #bce8f1}
 
 nav {
-    z-index: 999 !important;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    z-index: 99;
+    }
+.active{
+    z-index: 2;
+    }
+.pre-active{
+    z-index: 1;
+    }
+#map_holder {
+    background-image: url("../../production/images/user.jpg");
+    }
+section {
+    overflow-x: hidden;
+    overflow-y: hidden;
+
     }

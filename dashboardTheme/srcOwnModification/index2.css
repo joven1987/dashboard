@@ -1,0 +1,24 @@
+.btn-stepsNav {
+    background-color: lightgray;
+    border-radius: 50%;
+    width: 35px; height: 35px;
+    background-color: #0b97c4;
+    color: white;
+    }
+.btn-stepsNav:hover {
+    background-color: black;
+    }
+#step1 {background-color: limegreen}
+#step2 {background-color: #0D3349}
+#step3 {background-color: #00d6b2}
+#step4 {background-color: #1b6d85}
+#step5 {background-color: #bce8f1}
+#step6 {background-color: #00d6b2}
+
+.step-section{
+    display: none;
+    height: 350px;
+    }
+.active-section {
+    display: block;
+    }
